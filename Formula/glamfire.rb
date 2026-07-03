@@ -9,28 +9,28 @@
 class Glamfire < Formula
   desc "Open, model-agnostic harness for the last mile of AI — the glam CLI"
   homepage "https://glamworks.github.io"
-  version "0.6.0"
+  version "0.7.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/glamworks/glamfire/releases/download/v#{version}/glam-darwin-arm64"
-      sha256 "3917b20d0448c4bbf2fa9b8217ea5bc7a57631f23aa4e192f006e233f0da576b"
+      sha256 "4f8f5fa2fbbe1d415b413a6a7cf930783d704db783de04926a2635975c5be0c7"
     end
     on_intel do
       url "https://github.com/glamworks/glamfire/releases/download/v#{version}/glam-darwin-x64"
-      sha256 "33035bf9e1d6fc20cd5e57770119baffb80de0fc65e44982597b234733e31763"
+      sha256 "d9124fe5d2361fea7a9389f3467834c26b2effd3a1c0c967f09f9a23c62bf68c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/glamworks/glamfire/releases/download/v#{version}/glam-linux-arm64"
-      sha256 "4e71c3dccac08f3ff978def79caeabc949f3606cf9ef655f4f9ba4543fe82338"
+      sha256 "55e6257200144a629af8a94f591b5e7dafbbddb9d64de81925e9d97e85c3e262"
     end
     on_intel do
       url "https://github.com/glamworks/glamfire/releases/download/v#{version}/glam-linux-x64"
-      sha256 "ad5edf895fba9c6a1f6dfc19d36c5b7abd62b23719a6aa4d621549b186153ceb"
+      sha256 "fec1a342c4f4e5e1b720111bdc320089e501cf9f5bad0cdec5c2afec7fc317d6"
     end
   end
 
